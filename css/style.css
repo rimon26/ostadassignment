@@ -1,0 +1,150 @@
+:root {
+  --bg_color: #222831;
+  --primary_color: #00adb5;
+  --secondary_color: #393e46;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg_color);
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+/* Navbar Styling */
+
+.navbar {
+  border-bottom: 1px solid #dddddd25;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.navbar-logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-logo a h2 {
+  font-family: "Oswald", serif;
+  font-size: 24px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: var(--primary_color);
+  transform: scale(1.05);
+}
+
+/* Hero Area */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.hero-content .hero-text h2 {
+  color: #fff;
+  font-size: 96px;
+}
+
+.designer {
+  color: var(--primary_color);
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.hero-buttons .h-btn {
+  border-radius: 24px;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-buttons .h-btn h3 {
+  font-size: 18px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.404);
+  font-weight: 600;
+}
+
+.h-btn1 {
+  background-color: var(--primary_color);
+}
+
+.h-btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary_color);
+  gap: 12px;
+}
+
+.h-btn2 i {
+  font-size: 18px;
+}
+
+.hero-buttons .h-btn:hover {
+  margin-top: -5px;
+}
