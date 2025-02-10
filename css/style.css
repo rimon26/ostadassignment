@@ -82,6 +82,23 @@ body {
   transform: scale(1.05);
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.bar:nth-child(1),
+.bar:nth-child(2) {
+  margin-bottom: 5px;
+}
+
 /* Hero Area */
 
 .hero-container {
