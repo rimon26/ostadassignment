@@ -15,6 +15,11 @@
   color: #fff;
 }
 
+::selection {
+  background-color: var(--primary_color);
+  color: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -164,4 +169,42 @@ body {
 
 .hero-buttons .h-btn:hover {
   margin-top: -5px;
+}
+
+/* About section */
+
+.about {
+  border-bottom: 1px solid #dddddd25;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 180px 20px;
+}
+
+.about-content {
+  margin-right: 80px;
+}
+
+.about-content h2 {
+  font-size: 64px;
+}
+
+.me {
+  color: var(--primary_color);
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #eeeeeeb2;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.r-m {
+  font-weight: 700;
+  color: #eeeeee;
+  cursor: pointer;
 }

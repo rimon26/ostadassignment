@@ -8,6 +8,10 @@
   .hero-image img {
     width: 300px;
   }
+
+  .about-image img {
+    width: 500px;
+  }
 }
 
 /* Tablet */
@@ -31,6 +35,18 @@
 
   .hero-buttons button.h-btn {
     padding: 10px 20px;
+  }
+
+  .about-image img {
+    width: 300px;
+  }
+
+  .about-content h2 {
+    font-size: 54px;
+  }
+
+  .about-content p {
+    font-size: 14px;
   }
 }
 
@@ -91,5 +107,15 @@
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 30px;
+    padding: 80px 20px;
+  }
+
+  .about-content {
+    margin: 0;
   }
 }
