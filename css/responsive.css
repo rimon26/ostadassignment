@@ -48,6 +48,14 @@
   .about-content p {
     font-size: 14px;
   }
+
+  .portfolio-text h2 {
+    font-size: 54px;
+  }
+
+  .portfolio-buttons button.portfolio-button {
+    font-size: 12px;
+  }
 }
 
 /* Phone and lower */
@@ -73,10 +81,8 @@
   .main-menu {
     flex-direction: column;
     position: absolute;
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: #222831;
+    border-bottom: 1px solid #dddddd56;
     width: 100%;
     top: 77px;
     left: 0;
@@ -117,5 +123,9 @@
 
   .about-content {
     margin: 0;
+  }
+
+  .portfolio-card {
+    width: 320px;
   }
 }
