@@ -111,7 +111,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .hero-content {
@@ -213,7 +213,7 @@ body {
 
 .portfolio {
   margin: 100px 0;
-  background-image: url(/assets/images/Projects\ Page.png);
+  background-image: url(/assets/images/Projects-Page.png);
   /* background-attachment: fixed; */
 }
 
