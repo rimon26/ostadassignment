@@ -112,7 +112,7 @@
   .about-container {
     flex-direction: column-reverse;
     gap: 30px;
-    padding: 80px 20px;
+    padding: 0px 20px 80px;
   }
 
   .about-content {
