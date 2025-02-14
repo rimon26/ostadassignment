@@ -215,6 +215,18 @@ body {
   margin: 100px 0;
   background-image: url(/assets/images/project-bg.png);
   /* background-attachment: fixed; */
+  position: relative;
+}
+
+.portfolio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg_color);
+  opacity: 0.4;
 }
 
 .portfolio-container {
@@ -223,6 +235,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  z-index: 1;
 }
 
 .portfolio-content {
