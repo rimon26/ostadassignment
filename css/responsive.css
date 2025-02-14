@@ -12,6 +12,14 @@
   .about-image img {
     width: 500px;
   }
+
+  .contact-image img {
+    width: 200px;
+  }
+
+  .contact-text h2 {
+    font-size: 54px;
+  }
 }
 
 /* Tablet */
@@ -55,6 +63,10 @@
 
   .portfolio-buttons button.portfolio-button {
     font-size: 12px;
+  }
+
+  .contact-text h2 {
+    font-size: 44px;
   }
 }
 
@@ -121,11 +133,52 @@
     padding: 0px 20px 80px;
   }
 
+  .portfolio-container {
+    padding-bottom: 20px;
+  }
+
   .about-content {
     margin: 0;
   }
 
   .portfolio-card {
     width: 320px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .contact-content {
+    flex-direction: column-reverse;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-text h2 {
+    font-size: 36px;
+  }
+
+  .contact-image img {
+    width: 150px;
+  }
+
+  .footer-content h3 {
+    font-size: 16px;
+  }
+
+  .footer-menu .footer-list {
+    gap: 33px;
+  }
+
+  .footertspp {
+    text-align: center;
   }
 }
